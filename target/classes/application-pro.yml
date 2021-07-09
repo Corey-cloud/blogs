@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mysql://112.74.185.228:3306/blog
+      username: blog
+      password: KGdn2X4jtmdLb4dd
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+logging:
+  level:
+    root: warn
+    com.corey: info
+  file:
+    name: log/blog-pro.log
+
+server:
+  port: 8081
